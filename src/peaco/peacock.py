@@ -131,7 +131,7 @@ def fan_data(function, targets):
 
     # Make sure that whatever python executable called this script is used to call child processes.
     py_prefix = sys.exec_prefix
-    py_path = os.path.join(py_prefix, "python.exe")
+    py_path = sys.executable
 
     # current_dir = path of the directory that this script is in
     current_dir = os.path.dirname(os.path.realpath(__file__))

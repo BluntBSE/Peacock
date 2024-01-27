@@ -1,4 +1,4 @@
-import peacock as pk
+from peaco import peacock as pk
 import time
 from datetime import datetime
 
